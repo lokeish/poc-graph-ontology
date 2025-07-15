@@ -7,3 +7,4 @@ Solution 1: You break the edges betwen the nodes and provide the nodes to llm, l
 ---
 Solution: 2 for finding the right subgraph for a given user question
 ![image](./ontoloty.png)
+![alt text](image-1.png)
