@@ -1,0 +1,16 @@
+services:
+  age:
+    image: apache/age
+    platform: linux/amd64
+    container_name: postgres_with_age
+    environment:
+      POSTGRES_USER: postgresUser
+      POSTGRES_PASSWORD: postgresPW
+      POSTGRES_DB: postgresDB
+    ports:
+      - "5455:5432"
+    volumes:
+      - age-data:/var/lib/postgresql/data
+
+volumes:
+  age-data:
