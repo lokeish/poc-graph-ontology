@@ -10,7 +10,7 @@ DB_USER = "postgresUser"
 DB_PASSWORD = "postgresPW"
 SCHEMA = "public"
 
-DATA_DIR = "data"
+DATA_DIR = "data/sample_data"
 
 TABLES = {
     "classes_schedules": {
